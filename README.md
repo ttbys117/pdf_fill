@@ -1,10 +1,10 @@
 # pdf_fill
-PoC of filling forms of PDF.
+PDFのフォームを転記するPoC.
 
 ~~~
-+  dest/			エントリを埋めたPDF
++  dest/		エントリを埋めたPDF
 +  formats/		フォーマットのPDF
-+  js/				JavaScriptのソース
++  js/			JavaScriptのソース
 +  python/		Pythonのソース
    LICENSE
    README.md
@@ -16,7 +16,7 @@ PoC of filling forms of PDF.
 
 * Node.jsの動く環境
 * Visual Studio Community (C++コンパイラが動くこと)
-* pdffiller
+* pdffiller  
     `npm install pdffilter`としてインストール
 
 ### 実行方法
@@ -30,7 +30,7 @@ $node index.js
 ### 必要なもの
 
 * Python 3
-* pdfrw
+* pdfrw  
     `pip install pdfrw`としてインストール
 
 ### 実行方法
